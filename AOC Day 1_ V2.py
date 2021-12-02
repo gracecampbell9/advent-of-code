@@ -1,7 +1,7 @@
 # AOC Day 1 
 
 # open file, read depths
-with open('/Users/gracecampbell/Documents/Advent of Code/Day 1/input.txt', 'r') as readings:
+with open('Day 1/input.txt', 'r') as readings:
     depths = [int(number.strip()) for number in readings.readlines()]
 
 # Part 1:
