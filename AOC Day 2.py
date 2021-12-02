@@ -5,7 +5,7 @@ testcourse = ["forward 5", "down 5", "forward 8", "up 3", "down 8", "forward 2"]
 
 #--------------------------
 # read txt file:
-with open('/Users/gracecampbell/Documents/Advent of Code/Day 2/input.txt', 'r') as txt_input:
+with open('Day 2/input.txt', 'r') as txt_input:
     course = [line.strip().split(' ') for line in txt_input.readlines()]
     course = [(x, int(y)) for [x, y] in course]
 
